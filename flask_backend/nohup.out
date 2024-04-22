@@ -1,0 +1,8 @@
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.31.36.158:5000/ (Press CTRL+C to quit)
+104.194.96.87 - - [20/Apr/2024 03:29:46] "POST / HTTP/1.1" 200 -
