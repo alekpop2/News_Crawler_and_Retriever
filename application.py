@@ -38,7 +38,7 @@ while command != '4':
                 response = send_command_to_server('/query', data={'query': query})
                 docs = json.loads(response)
                 for doc in docs:
-                    print(f'Doc {doc['doc_index']}:\n{doc['doc_content']}\n')
+                    print(f"Doc {doc['doc_index']}:\n{doc['doc_content']}\n")
             except Exception:
                 print('pickled index file does not exist')
                 continue
