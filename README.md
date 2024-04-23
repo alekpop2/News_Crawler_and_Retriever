@@ -218,7 +218,7 @@ Inputs
 1. Complete the software command steps above.
 2. The program should produce an output like the following in your command prompt:
 
-![]("images/Picture1.jpg")
+![](images/Picture1.jpg)
 
 3. From there, enter the number associated with one of the available commands (1-4). It is
     recommended that the user run commands (1-3) in order the first time they run the program to get
@@ -301,19 +301,19 @@ Below is a list of the available commands and what a successful execution of eac
 
 1. Crawl & Scrape TMZ
 
-![]("images/Picture2.jpg")
+![](images/Picture2.jpg)
 
 2. Build Index
 
-![]("images/Picture3.jpg")
+![](images/Picture3.jpg)
 
 3. Query
 
-![]("images/Picture4.jpg")
+![](images/Picture4.jpg)
 
 4. Stop
 
-![]("images/Picture5.jpg")
+![](images/Picture5.jpg)
 
 ## 9. Source Code
 
