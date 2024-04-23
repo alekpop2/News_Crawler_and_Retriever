@@ -330,16 +330,27 @@ Bisect, Flask, Math, NLTK, NumPy, OS, Pandas, Pickle, RE, Sci-Kit-Learn, Scrapy,
 ### Documentation
 
 Bisect: https://docs.python.org/3/library/bisect.html
+
 Flask: https://flask.palletsprojects.com/en/3.0.x/
+
 Math: https://docs.python.org/3/library/math.html
+
 NLTK: https://www.nltk.org/
+
 NumPy: https://numpy.org/doc/
+
 OS: https://docs.python.org/3/library/os.html
+
 Pandas: https://pandas.pydata.org/docs/
+
 Pickle: https://docs.python.org/3/library/pickle.html
+
 RE: https://docs.python.org/3/library/re.html
+
 Sci-Kit-Learn: https://scikit-learn.org/stable/
+
 Scrapy: https://docs.scrapy.org/en/latest/
+
 Subprocess: https://docs.python.org/3/library/subprocess.html
 
 ## 10. Bibliography
