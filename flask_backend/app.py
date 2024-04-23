@@ -1,5 +1,5 @@
 from flask import Flask, request
-from crawler_runner import run_crawler
+from crawler_runner import run_crawler_subprocess
 from indexer import create_pickled_index_from_docs
 from processor import process_query
 from flask import jsonify
@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/crawl', methods=['GET'])
 def crawl():
-    run_crawler()
+    run_crawler_subprocess()
     return 'Crawling and scraping TMZ completed.'
 
 @app.route('/build_index', methods=['GET'])

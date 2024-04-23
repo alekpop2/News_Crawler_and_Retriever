@@ -8,11 +8,13 @@ import pickle
 import nltk
 
 def get_cleaned_df() -> pd.DataFrame:
+    
+    csv_file_path = os.path.join('web_crawler', 'docs.csv')
 
-    if not os.path.exists('docs.csv'):
+    if not os.path.exists(csv_file_path):
         raise Exception('docs.csv file does not exist')
 
-    text_df = pd.read_csv('docs.csv')
+    text_df = pd.read_csv(csv_file_path)
     text_df['title'] = text_df['title'].apply(clean_text)
     text_df['text'] = text_df['text'].apply(clean_text)
 
@@ -51,13 +53,15 @@ def create_pickled_index_from_docs() -> None:
     
     nltk.download('punkt')
     
-    if not os.path.exists('docs.csv'):
+    csv_file_path = os.path.join('web_crawler', 'docs.csv')
+
+    if not os.path.exists(csv_file_path):
         raise Exception('docs.csv file does not exist')
 
     if os.path.exists('inverted_index.pkl'):
         os.remove('inverted_index.pkl')
-
-    text_df = pd.read_csv('docs.csv')
+    
+    text_df = pd.read_csv(csv_file_path)
     text_df['title'] = text_df['title'].apply(clean_text)
     text_df['text'] = text_df['text'].apply(clean_text)
     text_df['title'] = text_df['title'].apply(normalize_text)
